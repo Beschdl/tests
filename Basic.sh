@@ -2,11 +2,12 @@
 #          Beschdl's Basic
 #             Commands
 #########################################
-
 sleep 1
 banner "Beschdl"
 echo "All files are getting prepared..."
-
+echo " "
+echo " "
+sleep 2
 sudo dpkg --configure -a
 sudo apt-get install nmap
 sudo apt-get install john
