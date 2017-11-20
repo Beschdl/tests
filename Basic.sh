@@ -1,0 +1,27 @@
+#########################################
+#          Beschdl's Basic
+#             Commands
+#########################################
+
+
+
+sudo su
+
+sleep 1
+banner "Beschdl"
+echo "All files are getting prepared..."
+
+sudo dpkg --configure -a
+sudo apt-get install nmap
+sudo apt-get install john
+sudo apt-get install johnny
+sudo apt install sqlmap
+sudo apt-get update
+sudo apt-get upgrade
+
+"Alles installiert"
+
+banner "EXITING"
+exit
+
+#### EOF
