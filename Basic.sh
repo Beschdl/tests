@@ -3,10 +3,6 @@
 #             Commands
 #########################################
 
-
-
-sudo su
-
 sleep 1
 banner "Beschdl"
 echo "All files are getting prepared..."
